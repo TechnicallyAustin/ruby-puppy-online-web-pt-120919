@@ -5,7 +5,7 @@ def initialize(name)
   @@all << self.name  
 end
  def name
-   @name 
+   self.@name 
  end
 
 
