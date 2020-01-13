@@ -20,7 +20,10 @@ def self.clear_all
 end
 
 def self.print_all
-  @all. each do |i| puts i
+  @all. each do |i| 
+    puts i 
+  end 
+  
   
 end
 
