@@ -5,12 +5,12 @@ def initialize(name)
   @@all << self.name  
 end
  def name
-   self.@name 
+   @name 
  end
 
 
 def self.all
-
+@all 
 end
 
 def self.clear_all
