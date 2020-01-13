@@ -19,9 +19,7 @@ def self.print_all
   @all.map {|i| puts i}
 end
 
-def save
-  @all << self 
-end
+
 
   
 end
