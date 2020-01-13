@@ -16,7 +16,7 @@ end
 
 
 def self.clear_all
-  @@all.map { |i| @@all.pop(i)}
+  @@all.map { |i| @@all.delete_if { |i| i == i }
 end
 
 def self.print_all
