@@ -4,7 +4,9 @@ def initialize(name)
   @name = name
   @@all << @name 
 end
-attr_accessor :name 
+ def name
+   @name 
+ end
 
 
 def self.all
