@@ -24,8 +24,10 @@ def self.print_all
     @i = i.name 
     puts @i
   end 
-  
-  
+end
+
+def save
+  @all << self
 end
 
 
