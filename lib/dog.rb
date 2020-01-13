@@ -9,9 +9,7 @@ end
  end
 
 
-def self.all
-@all 
-end
+
 
 def self.clear_all
   @@all.map { |i| @@all.pop(i)}
